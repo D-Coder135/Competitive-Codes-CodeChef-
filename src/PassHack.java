@@ -10,6 +10,7 @@ public class PassHack {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int testCases = scanner.nextInt();
+        int[] arrayOfOutputs = new int[testCases];
         for (int numberOfInputs = 0; numberOfInputs < testCases; numberOfInputs++) {
             String revPassword = "";
             String password = "";
@@ -29,7 +30,7 @@ public class PassHack {
                 password = password.concat(String.valueOf(revPassword.charAt(reverseIndex)));
             }
             int correctPassword = Integer.parseInt(password);
-            System.out.println(correctPassword);
         }
+        scanner.close();
     }
 }
