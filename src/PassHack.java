@@ -31,5 +31,6 @@ public class PassHack {
             int correctPassword = Integer.parseInt(password);
             System.out.println(correctPassword);
         }
+        scanner.close();
     }
 }
