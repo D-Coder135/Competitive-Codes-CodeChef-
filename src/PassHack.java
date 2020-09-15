@@ -30,6 +30,7 @@ public class PassHack {
                 password = password.concat(String.valueOf(revPassword.charAt(reverseIndex)));
             }
             int correctPassword = Integer.parseInt(password);
+            arrayOfOutputs[numberOfInputs] = correctPassword;
         }
         scanner.close();
     }
