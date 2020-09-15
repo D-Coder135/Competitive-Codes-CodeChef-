@@ -3,7 +3,7 @@
  *  Date: 14-09-2020
  *  Time: 08:30 PM
  */
-
+/* Problem Code On CodeChef --> PASSHACK */
 import java.util.Scanner;
 
 public class PassHack {
@@ -36,5 +36,6 @@ public class PassHack {
         for (int output : arrayOfOutputs) {
             System.out.println(output);
         }
+        scanner.close();
     }
 }
