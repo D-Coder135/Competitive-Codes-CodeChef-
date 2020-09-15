@@ -36,6 +36,5 @@ public class PassHack {
         for (int output : arrayOfOutputs) {
             System.out.println(output);
         }
-        scanner.close();
     }
 }
