@@ -33,5 +33,8 @@ public class PassHack {
             arrayOfOutputs[numberOfInputs] = correctPassword;
         }
         scanner.close();
+        for (int output : arrayOfOutputs) {
+            System.out.println(output);
+        }
     }
 }
