@@ -11,4 +11,7 @@
 
 
 public class MathChef {
+    public static void main(String[] args) {
+
+    }
 }
