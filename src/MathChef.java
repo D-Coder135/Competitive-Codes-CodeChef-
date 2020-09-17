@@ -23,6 +23,7 @@ public class MathChef {
             for (int queryNumber = 1; queryNumber <= totalNumberOfQueries; queryNumber++) {
                 int digit = scanner.nextInt();
                 char character = scanner.nextLine().charAt(0);
+
             }
         }
 
