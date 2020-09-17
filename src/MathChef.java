@@ -15,8 +15,16 @@ import java.util.Scanner;
 public class MathChef {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        int testCases = scanner.nextInt();
-        int[] arrayOfOutputs = new int[testCases];
+        int totalTestCases = scanner.nextInt();
+        int[] arrayOfOutputs = new int[totalTestCases];
+        for (int testCase = 1; testCase <= totalTestCases; testCase++) {
+            int number = scanner.nextInt();
+            int totalNumberOfQueries = scanner.nextInt();
+            for (int queryNumber = 1; queryNumber <= totalNumberOfQueries; queryNumber++) {
+                int digit = scanner.nextInt();
+                char character = scanner.nextLine().charAt(0);
+            }
+        }
 
     }
 }
