@@ -16,6 +16,7 @@ public class MathChef {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         int testCases = scanner.nextInt();
+        int[] arrayOfOutputs = new int[testCases];
 
     }
 }
