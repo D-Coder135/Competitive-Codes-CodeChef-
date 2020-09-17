@@ -4,6 +4,7 @@
  *  Time: 08:30 PM
  */
 /* Problem Code On CodeChef --> PASSHACK */
+
 import java.util.Scanner;
 
 public class PassHack {
