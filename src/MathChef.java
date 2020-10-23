@@ -29,9 +29,16 @@ public class MathChef {
                 String reverseNewNumber = "";
                 if (character == '+') {
                     while (number != 0) {
+                        digitOfNumber = number % 10;
+                        int sum = digitOfNumber + digit;
+                        totalSum += sum;
+                        number = number / 10;
+                        reverseNewNumber = reverseNewNumber.concat(String.valueOf(sum));
                     }
+
                 }
             }
         }
     }
 }
+
