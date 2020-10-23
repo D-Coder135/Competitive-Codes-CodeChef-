@@ -22,10 +22,14 @@ public class MathChef {
             int totalNumberOfQueries = scanner.nextInt();
             for (int queryNumber = 1; queryNumber <= totalNumberOfQueries; queryNumber++) {
                 int digit = scanner.nextInt();
+                scanner.nextLine();
                 char character = scanner.nextLine().charAt(0);
-
+                int digitOfNumber = 0;
+                int totalSum = 0;
+                String reverseNewNumber = "";
+                if (character == '+') {
+                }
             }
         }
-
     }
 }
