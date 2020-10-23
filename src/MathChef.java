@@ -35,6 +35,8 @@ public class MathChef {
                         number = number / 10;
                         reverseNewNumber = reverseNewNumber.concat(String.valueOf(sum));
                     }
+                    StringBuilder newNumberInString = new StringBuilder(reverseNewNumber);
+                    number = Integer.parseInt(String.valueOf(newNumberInString.reverse()));
 
                 }
             }
