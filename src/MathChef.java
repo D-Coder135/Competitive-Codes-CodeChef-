@@ -28,6 +28,8 @@ public class MathChef {
                 int totalSum = 0;
                 String reverseNewNumber = "";
                 if (character == '+') {
+                    while (number != 0) {
+                    }
                 }
             }
         }
