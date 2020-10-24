@@ -30,10 +30,10 @@ public class MathChef {
                 if (character == '+') {
                     while (number != 0) {
                         digitOfNumber = number % 10;
-                        int sum = digitOfNumber + digit;
-                        totalSum += sum;
+                        int sumOperation = digitOfNumber + digit;
+                        totalSum += sumOperation;
                         number = number / 10;
-                        reverseNewNumber = reverseNewNumber.concat(String.valueOf(sum));
+                        reverseNewNumber = reverseNewNumber.concat(String.valueOf(sumOperation));
                     }
                     StringBuilder newNumberInString = new StringBuilder(reverseNewNumber);
                     number = Integer.parseInt(String.valueOf(newNumberInString.reverse()));
@@ -50,6 +50,10 @@ public class MathChef {
                 } else {
                     int duplicateNumber = number;
                     while (duplicateNumber != 0) {
+                        digitOfNumber = duplicateNumber % 10;
+                        int divisionOperation = digitOfNumber / digit;
+                        totalSum += divisionOperation;
+                        duplicateNumber = duplicateNumber / 10;
                     }
                 }
             }
