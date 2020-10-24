@@ -55,6 +55,7 @@ public class MathChef {
                         totalSum += divisionOperation;
                         duplicateNumber = duplicateNumber / 10;
                     }
+                    arrayOfOutputs[testCase - 1] = totalSum;
                 }
             }
         }
