@@ -60,6 +60,7 @@ public class MathChef {
             }
         }
         for (int outputs : arrayOfOutputs) {
+            System.out.println(outputs);
         }
     }
 }
