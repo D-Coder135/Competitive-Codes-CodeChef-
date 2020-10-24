@@ -46,6 +46,7 @@ public class MathChef {
                         totalSum += multiplicationOperation;
                         duplicateNumber = duplicateNumber / 10;
                     }
+                    arrayOfOutputs[testCase - 1] = totalSum;
                 }
             }
         }
