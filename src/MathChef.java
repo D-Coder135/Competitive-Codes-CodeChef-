@@ -38,6 +38,7 @@ public class MathChef {
                     StringBuilder newNumberInString = new StringBuilder(reverseNewNumber);
                     number = Integer.parseInt(String.valueOf(newNumberInString.reverse()));
                     arrayOfOutputs[testCase - 1] = totalSum;
+                } else if (character == '*') {
                 }
             }
         }
