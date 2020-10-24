@@ -59,6 +59,9 @@ public class MathChef {
                 }
             }
         }
+        for (int outputs : arrayOfOutputs) {
+        }
     }
 }
+
 
