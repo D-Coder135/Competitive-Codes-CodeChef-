@@ -41,6 +41,10 @@ public class MathChef {
                 } else if (character == '*') {
                     int duplicateNumber = number;
                     while (duplicateNumber != 0) {
+                        digitOfNumber = duplicateNumber % 10;
+                        int multiplicationOperation = digitOfNumber * digit;
+                        totalSum += multiplicationOperation;
+                        duplicateNumber = duplicateNumber / 10;
                     }
                 }
             }
