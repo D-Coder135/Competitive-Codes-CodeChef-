@@ -48,6 +48,8 @@ public class MathChef {
                     }
                     arrayOfOutputs[testCase - 1] = totalSum;
                 } else {
+                    int duplicateNumber = number;
+
                 }
             }
         }
