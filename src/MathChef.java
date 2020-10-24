@@ -40,7 +40,8 @@ public class MathChef {
                     arrayOfOutputs[testCase - 1] = totalSum;
                 } else if (character == '*') {
                     int duplicateNumber = number;
-
+                    while (duplicateNumber != 0) {
+                    }
                 }
             }
         }
