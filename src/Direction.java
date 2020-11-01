@@ -44,5 +44,10 @@ Sample Input -->                                        Sample Output -->
 public class Direction {
     public void getMinimalDirection(String S) {
         int lengthOfInputtedDirection = S.length();
+        int counterForEastDirection = 0;
+        int counterForWestDirection = 0;
+        int counterForNorthDirection = 0;
+        int counterForSouthDirection = 0;
+
     }
 }
