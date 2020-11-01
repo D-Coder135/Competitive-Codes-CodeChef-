@@ -72,7 +72,9 @@ public class Direction {
             }
             if (counterForSouthDirection > counterForNorthDirection) {
                 difference = counterForSouthDirection - counterForNorthDirection;
-
+                for (int index = 0; index < difference; index++) {
+                    minimalDirection = minimalDirection.concat("S");
+                }
             }
         }
     }
