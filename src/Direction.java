@@ -89,8 +89,10 @@ public class Direction {
                 }
             }
 
-            if (minimalDirection == "") {
+            if (minimalDirection.isEmpty() || minimalDirection.isBlank()) {
                 System.out.println("Sad Alice");
+            } else {
+                System.out.println(minimalDirection);
             }
         }
     }
