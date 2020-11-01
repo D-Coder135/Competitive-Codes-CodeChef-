@@ -41,9 +41,11 @@ Sample Input -->                                        Sample Output -->
  */
 
 
+import java.util.Scanner;
+
 public class Direction {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 
     public static void getMinimalDirection(String S) {
