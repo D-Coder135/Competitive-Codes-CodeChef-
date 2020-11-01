@@ -51,6 +51,15 @@ public class Direction {
         String minimalDirection = "";
         for (int indexOfEachCharacter = 0; indexOfEachCharacter < lengthOfInputtedDirection; indexOfEachCharacter++) {
             char eachCharacter = S.charAt(indexOfEachCharacter);
+            if (eachCharacter == 'N') {
+                counterForNorthDirection++;
+            } else if (eachCharacter == 'S') {
+                counterForSouthDirection++;
+            } else if (eachCharacter == 'E') {
+                counterForEastDirection++;
+            } else {
+                counterForWestDirection++;
+            }
         }
     }
 }
