@@ -48,6 +48,7 @@ public class Direction {
         int counterForWestDirection = 0;
         int counterForNorthDirection = 0;
         int counterForSouthDirection = 0;
+        int difference = 0;
         String minimalDirection = "";
         for (int indexOfEachCharacter = 0; indexOfEachCharacter < lengthOfInputtedDirection; indexOfEachCharacter++) {
             char eachCharacter = S.charAt(indexOfEachCharacter);
@@ -59,6 +60,11 @@ public class Direction {
                 counterForEastDirection++;
             } else {
                 counterForWestDirection++;
+            }
+
+            if (counterForNorthDirection > counterForSouthDirection) {
+                difference = counterForNorthDirection - counterForSouthDirection;
+
             }
         }
     }
