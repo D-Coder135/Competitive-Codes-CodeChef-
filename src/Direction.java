@@ -46,6 +46,7 @@ import java.util.Scanner;
 public class Direction {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String directionToldByStranger = scanner.nextLine();
     }
 
     public static void getMinimalDirection(String S) {
