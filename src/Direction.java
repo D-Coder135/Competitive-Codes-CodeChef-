@@ -90,7 +90,7 @@ public class Direction {
             }
 
             if (minimalDirection == "") {
-
+                System.out.println("Sad Alice");
             }
         }
     }
