@@ -46,7 +46,7 @@ public class Direction {
 
     }
 
-    public void getMinimalDirection(String S) {
+    public static void getMinimalDirection(String S) {
         int lengthOfInputtedDirection = S.length();
         int counterForEastDirection = 0;
         int counterForWestDirection = 0;
