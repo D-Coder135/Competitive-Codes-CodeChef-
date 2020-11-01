@@ -64,7 +64,9 @@ public class Direction {
 
             if (counterForNorthDirection > counterForSouthDirection) {
                 difference = counterForNorthDirection - counterForSouthDirection;
+                for (int index = 0; index < difference; index++) {
 
+                }
             }
         }
     }
