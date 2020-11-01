@@ -48,6 +48,6 @@ public class Direction {
         int counterForWestDirection = 0;
         int counterForNorthDirection = 0;
         int counterForSouthDirection = 0;
-
+        String minimalDirection = "";
     }
 }
