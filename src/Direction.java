@@ -39,5 +39,10 @@ Sample Input -->                                        Sample Output -->
         NWSSEWSNWSSNNEEWS                                         SSW
 
  */
+
+
 public class Direction {
+    public void getMinimalDirection(String S) {
+
+    }
 }
