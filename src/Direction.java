@@ -62,45 +62,46 @@ public class Direction {
             char eachCharacter = S.charAt(indexOfEachCharacter);
 
             if (eachCharacter == 'N') {
-                counterForNorthDirection++;
+                counterForNorthDirection += 1;
             } else if (eachCharacter == 'S') {
-                counterForSouthDirection++;
+                counterForSouthDirection += 1;
             } else if (eachCharacter == 'E') {
-                counterForEastDirection++;
+                counterForEastDirection += 1;
             } else {
-                counterForWestDirection++;
+                counterForWestDirection += 1;
             }
+        }
 
-            if (counterForNorthDirection > counterForSouthDirection) {
-                difference = counterForNorthDirection - counterForSouthDirection;
-                for (int index = 0; index < difference; index++) {
-                    minimalDirection = minimalDirection.concat("N");
-                }
+        if (counterForNorthDirection > counterForSouthDirection) {
+            difference = counterForNorthDirection - counterForSouthDirection;
+            for (int index = 0; index < difference; index++) {
+                minimalDirection = minimalDirection.concat("N");
             }
-            if (counterForSouthDirection > counterForNorthDirection) {
-                difference = counterForSouthDirection - counterForNorthDirection;
-                for (int index = 0; index < difference; index++) {
-                    minimalDirection = minimalDirection.concat("S");
-                }
+        }
+        if (counterForSouthDirection > counterForNorthDirection) {
+            difference = counterForSouthDirection - counterForNorthDirection;
+            for (int index = 0; index < difference; index++) {
+                minimalDirection = minimalDirection.concat("S");
             }
-            if (counterForEastDirection > counterForWestDirection) {
-                difference = counterForEastDirection - counterForWestDirection;
-                for (int index = 0; index < difference; index++) {
-                    minimalDirection = minimalDirection.concat("E");
-                }
+        }
+        if (counterForEastDirection > counterForWestDirection) {
+            difference = counterForEastDirection - counterForWestDirection;
+            for (int index = 0; index < difference; index++) {
+                minimalDirection = minimalDirection.concat("E");
             }
-            if (counterForWestDirection > counterForEastDirection) {
-                difference = counterForWestDirection - counterForEastDirection;
-                for (int index = 0; index < difference; index++) {
-                    minimalDirection = minimalDirection.concat("W");
-                }
+        }
+        if (counterForWestDirection > counterForEastDirection) {
+            difference = counterForWestDirection - counterForEastDirection;
+            for (int index = 0; index < difference; index++) {
+                minimalDirection = minimalDirection.concat("W");
             }
+        }
 
-            if (minimalDirection.isEmpty() || minimalDirection.isBlank()) {
-                System.out.println("Sad Alice");
-            } else {
-                System.out.println(minimalDirection);
-            }
+
+        if (minimalDirection.isEmpty() || minimalDirection.isBlank()) {
+            System.out.println("Sad Alice");
+        } else {
+            System.out.println(minimalDirection);
         }
     }
 }
