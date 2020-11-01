@@ -50,8 +50,10 @@ public class Direction {
         int counterForSouthDirection = 0;
         int difference = 0;
         String minimalDirection = "";
+
         for (int indexOfEachCharacter = 0; indexOfEachCharacter < lengthOfInputtedDirection; indexOfEachCharacter++) {
             char eachCharacter = S.charAt(indexOfEachCharacter);
+
             if (eachCharacter == 'N') {
                 counterForNorthDirection++;
             } else if (eachCharacter == 'S') {
@@ -65,7 +67,7 @@ public class Direction {
             if (counterForNorthDirection > counterForSouthDirection) {
                 difference = counterForNorthDirection - counterForSouthDirection;
                 for (int index = 0; index < difference; index++) {
-
+                    minimalDirection = minimalDirection.concat("N");
                 }
             }
         }
