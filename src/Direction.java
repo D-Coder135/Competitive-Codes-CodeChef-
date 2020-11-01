@@ -84,7 +84,9 @@ public class Direction {
             }
             if (counterForWestDirection > counterForEastDirection) {
                 difference = counterForWestDirection - counterForEastDirection;
+                for (int index = 0; index < difference; index++) {
 
+                }
             }
         }
     }
