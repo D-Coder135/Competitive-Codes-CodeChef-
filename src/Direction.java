@@ -78,6 +78,9 @@ public class Direction {
             }
             if (counterForEastDirection > counterForWestDirection) {
                 difference = counterForEastDirection - counterForWestDirection;
+                for (int index = 0; index < difference; index++) {
+                    minimalDirection = minimalDirection.concat("E");
+                }
             }
         }
     }
