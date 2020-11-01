@@ -70,6 +70,10 @@ public class Direction {
                     minimalDirection = minimalDirection.concat("N");
                 }
             }
+            if (counterForSouthDirection > counterForNorthDirection) {
+                difference = counterForSouthDirection - counterForNorthDirection;
+
+            }
         }
     }
 }
